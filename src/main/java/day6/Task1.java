@@ -12,7 +12,7 @@ public class Task1 {
         honda.info();
         motorbike.info();
 
-        System.out.println(honda.yearDifference());
+        System.out.println(honda.yearDifference(1999));
         System.out.println(motorbike.yearDifference(2000));
     }
 }

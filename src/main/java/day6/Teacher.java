@@ -27,8 +27,9 @@ public class Teacher {
         this.subject = subject;
     }
 
+    private Random random = new Random();
+
     public void evaluate(Student student){
-        Random random = new Random();
         int value = random.nextInt(4) + 2;
 
         String evaluation = "";
@@ -42,7 +43,7 @@ public class Teacher {
             case 4:
                 evaluation = "хорошо";
                 break;
-            case 5:
+            default:
                 evaluation = "отлично";
                 break;
         }
