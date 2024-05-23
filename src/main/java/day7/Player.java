@@ -4,7 +4,7 @@ public class Player {
     private int stamina;
     private final static int MAX_STAMINA = 100;
     private final static int MIN_STAMINA = 0;
-    public static int countPlayers;
+    private static int countPlayers;
 
     public Player(int stamina){
         this.stamina = stamina;
